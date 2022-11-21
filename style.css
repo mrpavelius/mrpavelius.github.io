@@ -1,0 +1,275 @@
+/* Шрифт Genshin Impact */
+@font-face{
+
+    font-family: 'Genshin_Impact';
+    
+    src: url('Genshin_Impact.ttf');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1920px;
+    min-width: 1920px;
+    /* Отключение скроллинга */
+    overflow-y: hidden;
+
+    font-family: "Genshin_Impact";
+    margin: 0;
+}
+/* Картинка Кадзухи */
+.main {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#77b79b, #ec9e7d) no-repeat fixed;
+}
+
+img.kazuha {
+    height: 1406.88px;
+    width: 1920px;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+.name h1 {
+    animation: fadeIn 3s ease 0s 1 normal forwards;
+    margin-top: 400px;
+    margin-left: 450px;
+    position: absolute;
+    font-size: 100px;
+    background-color: white;
+    padding: 10px;
+}
+/* Настройка меню */
+.menu {
+    z-index: 1;
+    margin-top: 310px;
+    margin-left: 20px;
+    position: fixed;
+    float: left;
+    height: 340px;
+    width: 250px;
+    background: black;
+    opacity: .7;
+    border-radius: 45px;
+}
+.menu_content {
+    margin-top: 30px;
+}
+.menu ul {
+    list-style-type: none
+}
+.menu a {
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+/* Пункты меню */
+.content h1 {
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/* История и трейлер */
+#lore {
+    background-image: url("img/lore.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:1000px;
+}
+#lore h1 {
+    padding:5px;
+    position:relative;
+    top: 25px;
+    height: 35px;
+    background-color: black;
+    margin-top:0;
+    width: 370px;
+    color: white; 
+}
+.trailer iframe {
+    border-radius: 10px;
+}
+.trailer {
+    margin-top: 50px;
+    margin-left: 400px
+}
+.trailer p {
+    padding: 10px;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin-top:0;
+    margin-right: 260px;
+    width:650px;
+    float: right;
+}
+
+.block1 {
+    height:1px;
+    background-color: black;
+}
+/* Созвездие */
+#constellation {
+    height: 1050px;
+    background-image: url("img/stars.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#constellation h1 {
+    margin-top:0;
+    padding-top: 100px;
+    width: 150px;
+    color: white
+}
+#constellation img {
+    width: 1000px;
+    height: 563px;
+    margin-left: 450px;
+    margin-top: 90px;
+}
+/* Остальное */
+#skills {
+    height: 200px;
+}
+table {
+    margin: auto;
+}
+td {
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+/* Лучший билд */
+#artifacts {
+    height: 1000px;
+    background: linear-gradient(90deg,#278a79,#19b37d,#52da6b);
+}
+figure {
+    text-align: center;
+    display: inline-block;
+}
+.second_line {
+    margin-left: 260px;
+}
+.artifacts_img {
+    margin-left: 350px;
+}
+.artifacts_header h1 {
+    width:830px;
+    position:relative;
+    top: 25px;
+    margin-top:0;
+}
+.artifacts_header h2 {
+    font-weight: 100;
+    padding-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:700px;
+    font-style: italic;
+}
+.artifacts_header p {
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+}
+#weapon {
+    background: linear-gradient(90deg,#8fb0ff,#709bff,#6190ff);
+    /* margin-top:100px; */
+    height:1000px
+}
+.weapon_header {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+}
+.weapon_desc {
+    margin-top:180px
+}
+#weapon img {
+    margin-left:400px
+}
+.weapon_p {
+    padding: 10px;
+    line-height: 35px;
+    font-size: 20px;
+    margin-top:-32px;
+    margin-right: 260px;
+    width:650px;
+    float: right;
+}
+.gradient1 {
+    background: linear-gradient(45deg,#50f2c4,#26d0e3,#757aff);
+}
+.block2 {
+    height: 60px;
+}
+#voice::-webkit-scrollbar {
+    width: 0;
+}
+#voice {
+    height: 900px;
+    overflow-y: auto;
+}
+#voice h1 {
+    margin-top: 0;
+    padding-top: 30px;
+    width:150px;
+}
+.voices {
+    padding-top:70px;
+    padding-left: 110px;
+    margin-top:70px;
+    margin-bottom: 300px;
+    height: 450px;
+    width: 750px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin-left: 530px;
+}
+#voice h2 {
+    text-align: center;
+}
+.china_voice {
+    display: inline-block;
+}
+.english_voice {
+    margin-left: 30px;
+    display: inline-block;
+}
+.japanese_voice {
+    margin-top: 50px;
+    display: inline-block;
+}
+.korean_voice {
+    margin-left: 30px;
+    display: inline-block;
+}
+footer {
+    height:80px;
+    background-color: black;
+    display: flex;
+}
+footer a {
+    margin:auto;
+    height:35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
